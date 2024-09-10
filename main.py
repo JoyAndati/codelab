@@ -31,8 +31,8 @@ female_students_b = df_b[df_b['Gender'] == 'F']
 # Log the counts of male and female students
 logging.info(f"Number of male students in File_A: {len(male_students_a)}")
 logging.info(f"Number of female students in File_A: {len(female_students_a)}")
-logging.info(f"Number of male students in File_B: {len(male_students_b)}")
-logging.info(f"Number of female students in File_B: {len(female_students_b)}")
+logging.info(f"Number of male student in File_B: {len(male_students_b)}")
+logging.info(f"Number of female student in File_B: {len(female_students_b)}")
 
 # Step 4: Detect and log names with special characters
 special_char_names_a = df_a[df_a['Student Name'].apply(has_special_characters)]
